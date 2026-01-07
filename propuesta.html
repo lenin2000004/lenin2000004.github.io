@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ Quieres ser la novia de Lenin ;3? ♥</title>
+  <style>
+    .body {
+      background-color: crimson;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Me darías la oportunidad de ser tu novio ;3? ♥</h1>
+  <img src="https://i.pinimg.com/736x/ed/70/d7/ed70d7e7ffea6a509fb2026d2c86d2c1.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">Sii ;3</button>
+  <button id="no">Nel PerrO😭</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Siiiii, sabia que dirias que si JOJOJOJo💞');
+      alert('😱Nuestra boda es Mañana😱');
+      location.href = 'https://www.youtube.com/watch?v=R5cbxTPZNL0&list=RDR5cbxTPZNL0&start_radio=1';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
